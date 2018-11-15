@@ -1,0 +1,87 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f7f9fc;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: #888;
+}
+
+nav ul {
+    position: relative;
+    top: 20px;
+    margin: 0;
+    float: right;
+    right: 10%;
+}
+
+nav ul li {
+    float: left;
+    display: block;
+    margin: 0px 15px 0px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #888;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    color: #55a8fd;
+}
+
+section#input-form {
+    position: relative;
+    max-width: 100%;
+    margin-top: 60px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 7px 0px rgba(136, 146, 146, 0.2);
+    padding: 30px;
+}
+
+#input-form .judul {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 33px;
+}
+
+#input-form .form {
+    width: 100%;
+    display: grid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+input {
+    font-family: sans-serif;
+    padding: 10px 20px 10px 20px;
+    outline: none;
+    border-radius: 1px solid #8888;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.bg-blue {
+    background-color: #55a8fd;
+    color: #fff;
+    border: 1px solid #55a8fd;
+}
